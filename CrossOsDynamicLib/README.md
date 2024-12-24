@@ -18,17 +18,21 @@
 # │   ├── src/                      # 核心代码 c/c++
 # │   └── CMakeLists.txt            # core库的CMake脚本
 # ├── platform/
-# │   └── android/                  # Android平台相关
-# │       ├── app/
-# │       │   ├── src/
-# │       │   │     └── main/
-# │       │   │         ├── cpp/                      # JNI代码
-# │       │   │         │   ├── src/                  # 代码 c/c++
-# │       │   │         │   ├── include/              # 头文件 .h
-# │       │   │         │   └── CMakeLists.txt        # Android的CMake脚本
-# │       │   │         ├── java                      # Java代码
-# │       │   │         └── AndroidManifest.xml       # 清单文件
-# │       │   │
-# │       │   ├── build.gradle          # App module Gradle构建文件
-# │       ├── settings.gradle           # Gradle设置文件
-# │       └── build.gradle              # 根目录Gradle文件
+# │   ├── android/                  # Android 平台相关
+# │   │   ├── app/
+# │   │   │   ├── src/
+# │   │   │   │     └── main/
+# │   │   │   │         ├── cpp/                      # JNI代码
+# │   │   │   │         │   ├── src/                  # 代码 c/c++
+# │   │   │   │         │   ├── include/              # 头文件 .h
+# │   │   │   │         │   └── CMakeLists.txt        # Android的CMake脚本
+# │   │   │   │         ├── java                      # Java代码
+# │   │   │   │         └── AndroidManifest.xml       # 清单文件
+# │   │   │   │
+# │   │   │   ├── build.gradle          # App module Gradle构建文件
+# │   │   ├── settings.gradle           # Gradle设置文件
+# │   │   └── build.gradle              # 根目录Gradle文件
+# │   │
+# │   ├── ios/                       # ios 平台相关
+# │   │
+# │   └── harmony/                   # harmony 平台相关
