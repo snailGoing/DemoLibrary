@@ -5,6 +5,8 @@
 # You can get to how to build a dynamic library according to this demo.
 #
 # This project structure description as following:
+# The dependency relationship is as follows:
+#  [android] -- > [core] -- > [common]
 #
 # CrossOsDynamicLib/
 # ├── common/                       # 公共逻辑库
