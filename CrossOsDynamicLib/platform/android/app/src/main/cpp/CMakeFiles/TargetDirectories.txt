@@ -1,0 +1,9 @@
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/CMakeFiles/test.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/CMakeFiles/edit_cache.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/CMakeFiles/rebuild_cache.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/outputs/core/CMakeFiles/core.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/outputs/core/CMakeFiles/edit_cache.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/outputs/core/CMakeFiles/rebuild_cache.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/outputs/common/CMakeFiles/common.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/outputs/common/CMakeFiles/edit_cache.dir
+/Users/qimao/AndroidStudioProjects/test/my_library/platform/android/app/src/main/cpp/outputs/common/CMakeFiles/rebuild_cache.dir
