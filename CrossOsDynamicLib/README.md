@@ -5,7 +5,7 @@ Provide a demo library for cross-platform dynamic library.
 You can get to how to build a dynamic library according to this demo.
 
 This project structure description and the dependency relationship is as follows:
--  [android] -- > [core] -- > [common]
+-  [android/harmony/ios] -- > [core] -- > [common]
 
 ```plaintext
  CrossOsDynamicLib/
