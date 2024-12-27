@@ -9,17 +9,20 @@ This project structure description and the dependency relationship is as follows
 
 ```plaintext
  CrossOsDynamicLib/
+ │
  ├── common/                       # 公共逻辑库
  │   ├── include/                  # 头文件 .h
  │   ├── src/                      # 公共代码 c/c++
  │   └── CMakeLists.txt            # common库的CMake脚本
+ │
  ├── core/                         # 核心逻辑库
  │   ├── include/                  # 头文件 .h
  │   ├── src/                      # 核心代码 c/c++
  │   ├── feature/                  # 特性代码 c/c++ .h/cpp，供src业务c/cpp调用
  │   └── CMakeLists.txt            # core库的CMake脚本
- ├── platform/
- │   ├── android/                  # Android 平台相关
+ │
+ ├── platform/                     # 跨平台相关模块
+ │   ├── android/                  # <1> Android 平台相关
  │   │   ├── app/
  │   │   │   ├── src/
  │   │   │   │     └── main/
@@ -35,9 +38,9 @@ This project structure description and the dependency relationship is as follows
  │   │   ├── settings.gradle           # Gradle设置文件
  │   │   └── build.gradle              # 根目录Gradle文件
  │   │
- │   ├── ios/                       # ios 平台相关
+ │   ├── ios/                       # <2> ios 平台相关
  │   │
- │   ├── harmony/                   # harmony 平台相关
+ │   ├── harmony/                   # <3> harmony 平台相关
  │   │   ├── entry/
  │   │   │   ├── src/
  │   │   │   │     └── main/
