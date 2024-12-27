@@ -16,6 +16,7 @@ This project structure description and the dependency relationship is as follows
  ├── core/                         # 核心逻辑库
  │   ├── include/                  # 头文件 .h
  │   ├── src/                      # 核心代码 c/c++
+ │   ├── feature/                  # 特性代码 c/c++ .h/cpp，供src业务c/cpp调用
  │   └── CMakeLists.txt            # core库的CMake脚本
  ├── platform/
  │   ├── android/                  # Android 平台相关
