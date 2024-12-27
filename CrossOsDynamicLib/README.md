@@ -30,11 +30,30 @@ This project structure description and the dependency relationship is as follows
  │   │   │   │         ├── java                      # Java代码
  │   │   │   │         └── AndroidManifest.xml       # 清单文件
  │   │   │   │
- │   │   │   ├── build.gradle          # App module Gradle构建文件
+ │   │   │   └── build.gradle          # App module Gradle构建文件
+ │   │   │
  │   │   ├── settings.gradle           # Gradle设置文件
  │   │   └── build.gradle              # 根目录Gradle文件
  │   │
  │   ├── ios/                       # ios 平台相关
  │   │
- │   └── harmony/                   # harmony 平台相关
+ │   ├── harmony/                   # harmony 平台相关
+ │   │   ├── entry/
+ │   │   │   ├── src/
+ │   │   │   │     └── main/
+ │   │   │   │         ├── cpp/                           # Napi代码
+ │   │   │   │         │   ├── src/                       # 代码 c/c++
+ │   │   │   │         │   ├── include/                   # 头文件 .h
+ │   │   │   │         │   ├── types/                     # 接口层目录
+ │   │   │   │         │   │   └── libentry/
+ │   │   │   │         │   │       ├── Index.d.ts         # 接口声明 
+ │   │   │   │         │   │       └── oh-package.json5   # 模块库名&版本号
+ │   │   │   │         │   └── CMakeLists.txt             # CMake脚本
+ │   │   │   │         ├── ets                            # ArkTS代码
+ │   │   │   │         └── module.json5                   # 模块清单文件 
+ │   │   │   │
+ │   │   │   └── build-profile.json5           # App module 构建文件
+ │   │   │
+ │   │   ├── oh-package.json5                  # 项目依赖包管理文件
+ │   │   └── build-profile.json5               # 项目根目录G构建配置文件 
 ```
