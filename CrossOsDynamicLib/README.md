@@ -4,7 +4,7 @@
 Provide a demo library for cross-platform dynamic library.
 You can get to how to build a dynamic library according to this demo.
 
-This project structure description and the dependency relationship is as follows:
+This project structure description and the dependency relationship are as follows:
 -  [android/harmony/ios] -- > [core] -- > [common]
 
 ```plaintext
